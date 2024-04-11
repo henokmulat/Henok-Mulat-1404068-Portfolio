@@ -1,0 +1,91 @@
+@media screen and (max-width: 1400px) {
+  .profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header-navigation {
+    display: none;
+  }
+  .humburger-nav {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile {
+    display: block;
+  }
+  .section-pic {
+    margin-left: 0;
+    /* margin-right: 70px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-bottom: 32px; */
+  }
+
+  .hero-text {
+    left: 10%;
+    font-size: 24px;
+  }
+
+  .section-pic img {
+    width: 300px;
+    height: 300px;
+    order: 1;
+    left: initial;
+    right: 50%;
+    transform: translateX(30%);
+  }
+  .picture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .picture img {
+    width: 350px;
+  }
+
+  .bio-lists {
+    grid-template-columns: 1fr;
+    padding: 8px;
+  }
+  .heading {
+    margin: 0 auto;
+  }
+  .humburger-nav {
+    width: 100%;
+  }
+
+  .education {
+    margin-top: 800px;
+  }
+
+  .secondary-education {
+    border-radius: 14px 10px 30px 35px;
+    padding: 20px;
+  }
+
+  .priamry-education {
+    border-radius: 14px 10px 30px 35px;
+    padding: 20px;
+  }
+
+  .higher-school {
+    border-radius: 14px 10px 30px 35px;
+    padding: 20px;
+  }
+
+  .humburger-nav {
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}
